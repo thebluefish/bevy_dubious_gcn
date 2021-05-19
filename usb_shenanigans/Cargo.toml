@@ -1,0 +1,15 @@
+[package]
+name = "usb_shenanigans"
+version = "0.1.0"
+authors = ["s33n <sean.kaufman92@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+thiserror = "1.0"
+log = "0.4"
+rusb = "0.6"
+bitflags = "1.2"
+
+[dev-dependencies]
+simple_logger = "1"
+anyhow = "1"

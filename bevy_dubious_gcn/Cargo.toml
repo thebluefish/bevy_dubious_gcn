@@ -1,0 +1,14 @@
+[package]
+name = "bevy_dubious_gcn"
+version = "0.1.0"
+authors = ["s33n <sean.kaufman92@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+bevy = { version = "0.5", default-features = false }
+usb_shenanigans = { path = "../usb_shenanigans" }
+
+[dev-dependencies]
+bevy = "0.5"
+simple_logger = "1"
+anyhow = "1"

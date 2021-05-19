@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "bevy_dubious_gcn",
+    "usb_shenanigans"
+]
+resolver="2"
